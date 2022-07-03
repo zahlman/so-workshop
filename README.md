@@ -1,0 +1,3 @@
+This repository is used to workshop canonical questions for Stack Overflow, particularly for Python questions.
+
+I will create a separate folder, and a separate repository branch, for each question workshop. For cases where an existing question is being edited, the first commit on the branch will be the Markdown for the question as it stood before my call for feedback. In cases where a new canonical is needed, I will start with my own draft. Either way there will be a separate document to explain the intent of the changes and/or new work.
