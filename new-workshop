@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir "$1"
+cp discussion.md "$1"/
+cd $1
+# Open Retext editor for the copy.
+retext discussion.md &
