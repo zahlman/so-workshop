@@ -1,3 +1,7 @@
 This repository is used to workshop canonical questions for Stack Overflow, particularly for Python questions.
 
-I will create a separate folder for each question workshop. For cases where an existing question is being edited, the first commit on the branch will be the Markdown for the question as it stood before my call for feedback. In cases where a new canonical is needed, I will start with my own draft. Either way there will be a separate document to explain the intent of the changes and/or new work.
+Each folder represents a separate "question workshop". The initial contents are:
+
+* The general topic that will be addressed by the canonical is explained and discussed in `discussion.md`
+* For canonicals that are being written from scratch, `proposed.md` will contain my first draft
+* For canonicals where an existing question will likely be chosen and improved, each prominent candidate will be included as a `.md` file identified by the original Stack Overflow question number.
