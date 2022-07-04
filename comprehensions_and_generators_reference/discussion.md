@@ -33,7 +33,7 @@ This would be more of a signpost than a canonical, but here are some topics to c
 * When no mapping or filtering is done, just use a constructor 
 * * Special note about `dict(zip(keys, values)`
 * * Special note about `list(map(f, xs))`
-* There are no comprehensions for `tuple`, `bytearray` or `bytes`, but they can be passed a generator expression: https://stackoverflow.com/questions/16940293
+* There are no comprehensions for `tuple`, `bytearray` or `bytes`, but they can be passed a generator expression: https://stackoverflow.com/questions/16940293. `memoryview` requires actual bytes-like data
 * The natural synergy between various Python builtins accepting an iterable (`all`, `any`, `max`, `min`, `next`, `sorted`, `sum`) and generator expressions. (N.B. `len` cannot use a generator expression) See https://stackoverflow.com/questions/9297653 (dropping parentheses), https://stackoverflow.com/questions/8534256 (clever use of `next`), https://stackoverflow.com/questions/10666163 (`all`)
 * * Also `str.join` https://stackoverflow.com/questions/9060653
 
